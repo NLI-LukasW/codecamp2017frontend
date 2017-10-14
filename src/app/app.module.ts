@@ -5,6 +5,20 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { PostComponent } from './post/post.component';
+import {
+  MaterialModule,
+  MdToolbarModule,
+  MdButtonModule,
+  MdCheckboxModule,
+  MdAutocompleteModule,
+  MdCardModule,
+  MdDialogModule,
+  MdIconModule,
+  MdInputModule,
+  MdMenuModule,
+  MdRadioModule,
+  MdSnackBarModule
+} from '@angular/material';
 
 @NgModule({
   declarations: [

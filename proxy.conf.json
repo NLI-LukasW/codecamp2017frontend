@@ -1,0 +1,10 @@
+{
+	"/post/available": {
+		"target": "http://localhost:8082",
+		"secure": false
+	},
+	"/public": {
+		"target": "http://localhost:8080",
+		"secure": false
+	}	
+}
