@@ -20,6 +20,7 @@ import {
   MdSnackBarModule
 } from '@angular/material';
 import { RouterModule } from '@angular/router';
+import {MatTabsModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { RouterModule } from '@angular/router';
     BrowserModule,
     FormsModule,
     HttpModule,
+    MatTabsModule,
     RouterModule.forRoot([
       {
         path: 'post',
