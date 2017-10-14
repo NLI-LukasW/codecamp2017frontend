@@ -20,7 +20,6 @@ import {
   MdSnackBarModule
 } from '@angular/material';
 import { RouterModule } from '@angular/router';
-import {MatTabsModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -28,10 +27,21 @@ import {MatTabsModule} from '@angular/material';
     PostComponent
   ],
   imports: [
+    MaterialModule,
+    MdToolbarModule,
+    MdButtonModule,
+    MdCheckboxModule,
+    MdAutocompleteModule,
+    MdCardModule,
+    MdDialogModule,
+    MdIconModule,
+    MdInputModule,
+    MdMenuModule,
+    MdRadioModule,
+    MdSnackBarModule,
     BrowserModule,
     FormsModule,
     HttpModule,
-    MatTabsModule,
     RouterModule.forRoot([
       {
         path: 'post',

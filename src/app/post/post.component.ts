@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {MatTabsModule} from '@angular/material';
 import { PostService } from './post.service';
 import { Http, URLSearchParams, RequestOptions } from '@angular/http';
 import { Post } from './model/Post';
