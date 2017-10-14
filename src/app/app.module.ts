@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { PostComponent } from './post/post.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,13 @@ import { PostComponent } from './post/post.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot([
+      {
+        path: 'post',
+        component: PostComponent
+      }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
