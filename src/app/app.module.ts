@@ -19,6 +19,7 @@ import {
   MdRadioModule,
   MdSnackBarModule
 } from '@angular/material';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,13 @@ import {
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot([
+      {
+        path: 'post',
+        component: PostComponent
+      }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
